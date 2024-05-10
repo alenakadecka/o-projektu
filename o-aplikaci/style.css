@@ -11,4 +11,17 @@ html {
   max-width: 20rem;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+}
+
+.aboutUs{
+  border-radius: 15%;
+  background-color: #b85389;
+}
+
+img{
+  border-radius: 70%;
+  max-width: 20rem;
 }
