@@ -1,73 +1,115 @@
 /* Používáme intuitivní výpočet rozměrů prvků. */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
 html {
   font-family: sans-serif;
 }
-body{
+
+
+
+/* ----MOBILE SCREEN--------------- */
+/* ----TABLET SCREEN--------------- */
+@media screen and (min-width: 640px) {}
+
+/* -----PC SCREEN--------------- */
+@media screen and (min-width: 1100px) {}
+
+
+/* ---//////////////-------------- */
+body {
   display: flex;
   flex-direction: row;
   align-items: baseline;
 }
 
 .container {
-  max-width: 20rem;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   flex-direction: column;
-  
-}
-.together{
-display: flex;
-flex-direction: row;
-gap: 50px;
-justify-content: center;
 
-  
 }
 
-.aboutUs{
+.together {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+
+
+}
+
+.aboutUs {
   border-radius: 5%;
   background-color: #b85389;
-
-}
-.aboutUs:hover{
-  background-color: #864f9d;}
-
-.images{
-display: flex;
-flex-direction: row-reverse;
-margin-bottom: 20px;
-justify-content: center;
-gap:150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 20vw;
+  max-height: 70vh;
+  padding: 10px;
 }
 
-img{
+.aboutUs:hover {
+  background-color: #864f9d;
+}
+
+.images {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+  justify-content: center;
+  gap: 150px;
+}
+
+img {
   border-radius: 50%;
   max-width: 10rem;
 }
-img:hover{
+
+img:hover {
   border: 3px solid #b85389;
 
 }
 
-.headline{
-   display: flex;
-   justify-content: center; 
-}
-
-.heading{
-padding: 10px;
+.headline {
   display: flex;
   justify-content: center;
+  font-family: "ABeeZee", sans-serif;
 }
 
-h2{
-    color: aliceblue;
+.heading {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: "ABeeZee", sans-serif;
+  margin-top: 10px;
 }
-p{
+
+h2 {
+  color: aliceblue;
+  font-family: "ABeeZee", sans-serif;
+}
+
+p {
   padding: 20px;
+  font-family: "ABeeZee", sans-serif;
+  color: aliceblue;
+}
+
+.abeezee-regular {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abeezee-regular-italic {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
