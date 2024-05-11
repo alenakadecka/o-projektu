@@ -9,11 +9,30 @@ html {
   font-family: sans-serif;
 }
 
-
-
 /* ----MOBILE SCREEN--------------- */
+
+
+
+
+
 /* ----TABLET SCREEN--------------- */
-@media screen and (min-width: 640px) {}
+@media screen and (min-width: 640px) {
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+
+  }
+
+  .together {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+  }
+
+}
 
 /* -----PC SCREEN--------------- */
 @media screen and (min-width: 1100px) {}
@@ -39,8 +58,6 @@ body {
   flex-direction: row;
   gap: 5px;
   justify-content: center;
-
-
 }
 
 .aboutUs {
@@ -52,19 +69,22 @@ body {
   justify-content: center;
   max-width: 20vw;
   max-height: 70vh;
-  padding: 10px;
+  padding: 0 10px 5px 10px;
+  margin-bottom: 10rem;
 }
 
 .aboutUs:hover {
   background-color: #864f9d;
+  box-shadow: 2px 3px 4px 5px #c1c0c0;
+  ;
 }
 
 .images {
   display: flex;
   flex-direction: row-reverse;
   margin-bottom: 20px;
-  justify-content: center;
-  gap: 150px;
+  justify-content: space-around;
+
 }
 
 img {
@@ -83,8 +103,12 @@ img:hover {
   font-family: "ABeeZee", sans-serif;
 }
 
+.headline:hover {
+  color: #5105ae;
+}
+
 .heading {
-  padding: 10px;
+  padding: 10px 10px 10px 0;
   display: flex;
   justify-content: center;
   font-family: "ABeeZee", sans-serif;
@@ -112,4 +136,23 @@ p {
   font-family: "ABeeZee", sans-serif;
   font-weight: 400;
   font-style: italic;
+}
+
+.button {
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #fb0186;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: bold;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: #ffffff68;
+  color: #fb0186;
+  border: 1px solid #fb0186;
+  font-weight: bolder;
 }
