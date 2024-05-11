@@ -156,7 +156,9 @@ p {
   font-style: italic;
 }
 
-a {
+
+
+.link {
   border-radius: 50%;
   color: #ffffff;
   background-color: #fb0186;
@@ -172,13 +174,25 @@ a {
   font-style: italic;
 }
 
+.gitLink {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 17px;
+}
 
-a:hover {
+.gitLink:hover {
+  font-size: 19px;
+}
+
+.link:hover {
   background-color: #ffffff68;
   color: #fb0186;
   border: 1px solid #fb0186;
   font-weight: bolder;
 }
+
+
+
 
 /* .button {
   border-radius: 50%;
