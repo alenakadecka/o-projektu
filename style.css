@@ -44,7 +44,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  background-image: url("/img/coding.jpg");
+  background-image: url("img/coding.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
