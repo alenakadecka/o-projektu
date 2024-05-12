@@ -92,7 +92,7 @@ body::before {
   flex-direction: column;
   align-items: center;
   padding: 0 10px 5px 10px;
-  margin: 60px auto;
+  margin: 45px auto;
   max-width: 320px;
 
 
@@ -229,16 +229,7 @@ p {
 
 
 
-/* martina.html */
-
-
-.aboutUs {
-  display: flex;
-  flex-direction: column;
-  margin: 60px auto;
-  max-width: 320px;
-
-}
+/* martina.html alena.html*/
 
 
 .images {
