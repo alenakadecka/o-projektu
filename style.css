@@ -51,10 +51,11 @@ body::before {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: -1;
-  background-image: url("/img/coding-1841550_1920\ \(1\).jpg");
+  background-image: url("/img/coding-1841550_1920.jpg");
+  background-repeat: repeat-y;
 }
 
 
@@ -80,7 +81,8 @@ body::before {
 
 .aboutProject:hover {
   background-color: #864f9d;
-  box-shadow: 2px 3px 4px 5px #c1c0c0;
+  background-position: top;
+  background-repeat: repeat;
 }
 
 
