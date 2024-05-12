@@ -3,6 +3,7 @@
 *:before,
 *:after {
   box-sizing: border-box;
+
 }
 
 html {
@@ -43,20 +44,13 @@ body {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-
-}
-
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
+  background-image: url("/img/coding.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
-  z-index: -1;
-  background-image: url("../img/coding-1841550_1920.jpg");
-  background-repeat: repeat-y;
+
 }
+
 
 
 .container {
@@ -94,7 +88,7 @@ body::before {
   flex-direction: column;
   align-items: center;
   padding: 0 10px 5px 10px;
-  margin: 45px auto;
+  margin: 10px auto;
   max-width: 320px;
 
 
