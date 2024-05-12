@@ -43,7 +43,20 @@ body {
   display: flex;
   flex-direction: row;
   align-items: baseline;
+
 }
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("/img/coding-1841550_1920\ \(1\).jpg");
+}
+
 
 .container {
   margin-right: auto;
@@ -114,11 +127,12 @@ img:hover {
   display: flex;
   justify-content: center;
   font-family: "ABeeZee", sans-serif;
+  color: aliceblue;
 }
 
-.headline:hover {
+/* .headline:hover {
   color: #5105ae;
-}
+} */
 
 .heading {
   padding: 10px 10px 10px 0;
@@ -185,7 +199,7 @@ p {
 }
 
 .link:hover {
-  background-color: #ffffff68;
+  background-color: aliceblue;
   color: #fb0186;
   border: 1px solid #fb0186;
   font-weight: bolder;
