@@ -54,7 +54,7 @@ body::before {
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  background-image: url("/img/coding-1841550_1920.jpg");
+  background-image: url("../img/coding-1841550_1920.jpg");
   background-repeat: repeat-y;
 }
 
