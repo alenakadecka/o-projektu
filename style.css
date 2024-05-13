@@ -40,7 +40,7 @@ html {
 
 
 /* ---//////////////-------------- */
-body {
+/* body {
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -49,9 +49,17 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
 
+} */
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
 }
-
-
 
 .container {
   margin-right: auto;
@@ -74,7 +82,7 @@ body {
 }
 
 .aboutProject:hover {
-  background-color: #864f9d;
+  background-color: #401254;
   background-position: top;
   background-repeat: repeat;
 }
@@ -95,7 +103,7 @@ body {
 }
 
 .aboutUs:hover {
-  background-color: #864f9d;
+  background-color: #401254;
 }
 
 .images {
@@ -125,9 +133,6 @@ img:hover {
   color: aliceblue;
 }
 
-/* .headline:hover {
-  color: #5105ae;
-} */
 
 .heading {
   padding: 10px 10px 10px 0;
