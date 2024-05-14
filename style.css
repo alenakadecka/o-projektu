@@ -75,9 +75,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 10px 5px 10px;
+  padding: 0 10px 29px 10px;
   margin: 60px auto;
-  max-width: 320px;
+  max-width: 360px;
 
 }
 
@@ -95,9 +95,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 10px 5px 10px;
+  padding: 0 10px 50px 10px;
   margin: 10px auto;
-  max-width: 320px;
+  max-width: 380px;
 
 
 }
@@ -145,7 +145,21 @@ img:hover {
 h2 {
   color: aliceblue;
   font-family: "ABeeZee", sans-serif;
+  font-style: italic;
+  font-size: 23px;
 }
+
+h3 {
+  color: aliceblue;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 20px;
+}
+
+h3:hover {
+  color: #fb0186;
+
+}
+
 
 span {
   color: #fb0186;
@@ -156,6 +170,9 @@ p {
   font-family: "ABeeZee", sans-serif;
   color: aliceblue;
   text-indent: 20px;
+  line-height: 24px;
+  font-size: 18px;
+
 }
 
 .abeezee-regular {
@@ -194,8 +211,11 @@ p {
   font-size: 17px;
 }
 
+
 .gitLink:hover {
   font-size: 19px;
+  color: #d9a0f8;
+  font-weight: bold;
 }
 
 .link:hover {
