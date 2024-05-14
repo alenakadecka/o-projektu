@@ -5,52 +5,11 @@
   box-sizing: border-box;
 
 }
-
 html {
   font-family: sans-serif;
 }
 
 /* ----MOBILE SCREEN--------------- */
-
-
-
-
-
-/* ----TABLET SCREEN--------------- */
-/* @media screen and (min-width: 640px) {
-  .container {
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-
-
-  }
-
-  .together {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-
-  }
-
-} */
-
-/* -----PC SCREEN--------------- */
-/* @media screen and (min-width: 1100px) {} */
-
-
-/* ---//////////////-------------- */
-/* body {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  background-image: url("img/coding.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-
-} */
-
 body {
   display: flex;
   flex-direction: row;
@@ -58,7 +17,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
 }
 
 .container {
@@ -66,7 +25,6 @@ body {
   margin-left: auto;
   display: flex;
   flex-direction: column;
-
 }
 
 .aboutProject {
@@ -96,9 +54,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 0 10px 50px 10px;
-  margin: 10px auto;
-  max-width: 380px;
-
+  margin: 60px auto;
+  max-width: 360px;
 
 }
 
@@ -139,20 +96,20 @@ img:hover {
   display: flex;
   justify-content: center;
   font-family: "ABeeZee", sans-serif;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 h2 {
   color: aliceblue;
   font-family: "ABeeZee", sans-serif;
   font-style: italic;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 h3 {
   color: aliceblue;
   font-family: "ABeeZee", sans-serif;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 h3:hover {
@@ -166,12 +123,12 @@ span {
 }
 
 p {
-  padding: 20px;
+  padding: 10px;
   font-family: "ABeeZee", sans-serif;
   color: aliceblue;
-  text-indent: 20px;
+  text-indent: 15px;
   line-height: 24px;
-  font-size: 18px;
+  font-size: 15px;
 
 }
 
@@ -226,36 +183,213 @@ p {
 }
 
 
-
-
-/* .button {
-  border-radius: 50%;
-  color: #ffffff;
-  background-color: #fb0186;
-  font-family: "ABeeZee", sans-serif;
-  font-weight: bold;
-  width: 10rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.button:hover {
-  background-color: #ffffff68;
-  color: #fb0186;
-  border: 1px solid #fb0186;
-  font-weight: bolder;
-} */
-
-
-
 /* martina.html alena.html*/
-
 
 .images {
   display: flex;
   flex-direction: row-reverse;
-  margin-bottom: 20px;
-  gap: 50px;
+  margin: 5px 10px 20px 10px;
+  gap: 30px;
 
+}
+
+
+
+
+/* ----TABLET SCREEN--------------- */
+@media screen and (min-width: 640px) {}
+
+
+
+/* -----PC SCREEN--------------- */
+@media screen and (min-width: 1100px) {
+
+
+  body {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .aboutProject {
+    border-radius: 5%;
+    background-color: #b85389;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px 29px 10px;
+    margin: 60px auto;
+    max-width: 360px;
+
+  }
+
+  .aboutProject:hover {
+    background-color: #401254;
+    background-position: top;
+    background-repeat: repeat;
+  }
+
+
+
+  .aboutUs {
+    border-radius: 5%;
+    background-color: #b85389;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px 50px 10px;
+    margin: 10px auto;
+    max-width: 380px;
+
+
+  }
+
+  .aboutUs:hover {
+    background-color: #401254;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+    justify-content: space-around;
+
+  }
+
+  img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 11rem;
+    height: auto;
+  }
+
+  img:hover {
+    border: 3px solid #b85389;
+
+  }
+
+  .headline {
+    display: flex;
+    justify-content: center;
+    font-family: "ABeeZee", sans-serif;
+    color: aliceblue;
+  }
+
+
+  .heading {
+    padding: 10px 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    font-family: "ABeeZee", sans-serif;
+    margin-top: 10px;
+  }
+
+  h2 {
+    color: aliceblue;
+    font-family: "ABeeZee", sans-serif;
+    font-style: italic;
+    font-size: 23px;
+  }
+
+  h3 {
+    color: aliceblue;
+    font-family: "ABeeZee", sans-serif;
+    font-size: 20px;
+  }
+
+  h3:hover {
+    color: #fb0186;
+
+  }
+
+
+  span {
+    color: #fb0186;
+  }
+
+  p {
+    padding: 20px;
+    font-family: "ABeeZee", sans-serif;
+    color: aliceblue;
+    text-indent: 20px;
+    line-height: 24px;
+    font-size: 18px;
+
+  }
+
+  .abeezee-regular {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .abeezee-regular-italic {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+
+
+  .link {
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #fb0186;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: bold;
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .gitLink {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+  }
+
+
+  .gitLink:hover {
+    font-size: 19px;
+    color: #d9a0f8;
+    font-weight: bold;
+  }
+
+  .link:hover {
+    background-color: aliceblue;
+    color: #fb0186;
+    border: 1px solid #fb0186;
+    font-weight: bolder;
+  }
+
+
+
+
+  /* martina.html alena.html*/
+
+
+  .images {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+    gap: 50px;
+
+  }
 }
