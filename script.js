@@ -1,7 +1,5 @@
 function changeBackground() {
   var images = [
-      'img/padrian1.jpg',
-      'img/padrian2.jpg',
       'img/coding.jpg',
       'img/pexels.jpg',
       'img/flower.jpg',
